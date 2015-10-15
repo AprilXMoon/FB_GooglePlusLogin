@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C92E32311BCF5BAE00330748 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92E322E1BCF5BAE00330748 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		C92E32321BCF5BAE00330748 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92E322F1BCF5BAE00330748 /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		C92E32331BCF5BAE00330748 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92E32301BCF5BAE00330748 /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		C991C3531BC64DDA00DF02BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C991C3521BC64DDA00DF02BB /* main.m */; };
+		C991C3561BC64DDA00DF02BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C991C3551BC64DDA00DF02BB /* AppDelegate.m */; };
+		C991C3591BC64DDA00DF02BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C991C3581BC64DDA00DF02BB /* ViewController.m */; };
+		C991C35C1BC64DDA00DF02BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C991C35A1BC64DDA00DF02BB /* Main.storyboard */; };
+		C991C35E1BC64DDA00DF02BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C991C35D1BC64DDA00DF02BB /* Assets.xcassets */; };
+		C991C3611BC64DDA00DF02BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C991C35F1BC64DDA00DF02BB /* LaunchScreen.storyboard */; };
+		C991C36C1BC64DDA00DF02BB /* SSO_FGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C991C36B1BC64DDA00DF02BB /* SSO_FGTests.m */; };
+		C991C3771BC64DDA00DF02BB /* SSO_FGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C991C3761BC64DDA00DF02BB /* SSO_FGUITests.m */; };
+		C991C38D1BC66F1300DF02BB /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C991C38A1BC66F1300DF02BB /* GoogleOpenSource.framework */; settings = {ASSET_TAGS = (); }; };
+		C991C38E1BC66F1300DF02BB /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C991C38B1BC66F1300DF02BB /* GooglePlus.bundle */; settings = {ASSET_TAGS = (); }; };
+		C991C38F1BC66F1300DF02BB /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C991C38C1BC66F1300DF02BB /* GooglePlus.framework */; settings = {ASSET_TAGS = (); }; };
+		C9A5B4131BCB57CE008DCAE6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A5B4121BCB57CE008DCAE6 /* AddressBook.framework */; };
+		C9A5B4151BCB57DA008DCAE6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A5B4141BCB57DA008DCAE6 /* AssetsLibrary.framework */; };
+		C9A5B4171BCB57E7008DCAE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A5B4161BCB57E7008DCAE6 /* CoreLocation.framework */; };
+		C9A5B4191BCB57FD008DCAE6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A5B4181BCB57FD008DCAE6 /* CoreMotion.framework */; };
+		C9A5B41B1BCB5809008DCAE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A5B41A1BCB5809008DCAE6 /* CoreGraphics.framework */; };
+		C9A5B41D1BCB581D008DCAE6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A5B41C1BCB581D008DCAE6 /* CoreText.framework */; };
+		C9A5B41F1BCB5826008DCAE6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A5B41E1BCB5826008DCAE6 /* MediaPlayer.framework */; };
+		C9A5B4211BCB582E008DCAE6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A5B4201BCB582E008DCAE6 /* Security.framework */; };
+		C9A5B4231BCB5838008DCAE6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A5B4221BCB5838008DCAE6 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C991C3681BC64DDA00DF02BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C991C3461BC64DD900DF02BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C991C34D1BC64DDA00DF02BB;
+			remoteInfo = SSO_FG;
+		};
+		C991C3731BC64DDA00DF02BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C991C3461BC64DD900DF02BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C991C34D1BC64DDA00DF02BB;
+			remoteInfo = SSO_FG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C92E322E1BCF5BAE00330748 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		C92E322F1BCF5BAE00330748 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		C92E32301BCF5BAE00330748 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		C991C34E1BC64DDA00DF02BB /* SSO_FG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSO_FG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C991C3521BC64DDA00DF02BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C991C3541BC64DDA00DF02BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C991C3551BC64DDA00DF02BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C991C3571BC64DDA00DF02BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C991C3581BC64DDA00DF02BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C991C35B1BC64DDA00DF02BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C991C35D1BC64DDA00DF02BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C991C3601BC64DDA00DF02BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C991C3621BC64DDA00DF02BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C991C3671BC64DDA00DF02BB /* SSO_FGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSO_FGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C991C36B1BC64DDA00DF02BB /* SSO_FGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSO_FGTests.m; sourceTree = "<group>"; };
+		C991C36D1BC64DDA00DF02BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C991C3721BC64DDA00DF02BB /* SSO_FGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSO_FGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C991C3761BC64DDA00DF02BB /* SSO_FGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSO_FGUITests.m; sourceTree = "<group>"; };
+		C991C3781BC64DDA00DF02BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C991C38A1BC66F1300DF02BB /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		C991C38B1BC66F1300DF02BB /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
+		C991C38C1BC66F1300DF02BB /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
+		C9A5B4121BCB57CE008DCAE6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		C9A5B4141BCB57DA008DCAE6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		C9A5B4161BCB57E7008DCAE6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C9A5B4181BCB57FD008DCAE6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C9A5B41A1BCB5809008DCAE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9A5B41C1BCB581D008DCAE6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C9A5B41E1BCB5826008DCAE6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C9A5B4201BCB582E008DCAE6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C9A5B4221BCB5838008DCAE6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C991C34B1BC64DDA00DF02BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A5B4231BCB5838008DCAE6 /* SystemConfiguration.framework in Frameworks */,
+				C9A5B4211BCB582E008DCAE6 /* Security.framework in Frameworks */,
+				C9A5B41F1BCB5826008DCAE6 /* MediaPlayer.framework in Frameworks */,
+				C92E32311BCF5BAE00330748 /* Bolts.framework in Frameworks */,
+				C92E32331BCF5BAE00330748 /* FBSDKLoginKit.framework in Frameworks */,
+				C9A5B41D1BCB581D008DCAE6 /* CoreText.framework in Frameworks */,
+				C9A5B41B1BCB5809008DCAE6 /* CoreGraphics.framework in Frameworks */,
+				C9A5B4191BCB57FD008DCAE6 /* CoreMotion.framework in Frameworks */,
+				C9A5B4171BCB57E7008DCAE6 /* CoreLocation.framework in Frameworks */,
+				C92E32321BCF5BAE00330748 /* FBSDKCoreKit.framework in Frameworks */,
+				C9A5B4151BCB57DA008DCAE6 /* AssetsLibrary.framework in Frameworks */,
+				C9A5B4131BCB57CE008DCAE6 /* AddressBook.framework in Frameworks */,
+				C991C38F1BC66F1300DF02BB /* GooglePlus.framework in Frameworks */,
+				C991C38D1BC66F1300DF02BB /* GoogleOpenSource.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C991C3641BC64DDA00DF02BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C991C36F1BC64DDA00DF02BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C991C3451BC64DD900DF02BB = {
+			isa = PBXGroup;
+			children = (
+				C991C3501BC64DDA00DF02BB /* SSO_FG */,
+				C991C36A1BC64DDA00DF02BB /* SSO_FGTests */,
+				C991C3751BC64DDA00DF02BB /* SSO_FGUITests */,
+				C991C34F1BC64DDA00DF02BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C991C34F1BC64DDA00DF02BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C991C34E1BC64DDA00DF02BB /* SSO_FG.app */,
+				C991C3671BC64DDA00DF02BB /* SSO_FGTests.xctest */,
+				C991C3721BC64DDA00DF02BB /* SSO_FGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C991C3501BC64DDA00DF02BB /* SSO_FG */ = {
+			isa = PBXGroup;
+			children = (
+				C991C3541BC64DDA00DF02BB /* AppDelegate.h */,
+				C991C3551BC64DDA00DF02BB /* AppDelegate.m */,
+				C991C3571BC64DDA00DF02BB /* ViewController.h */,
+				C991C3581BC64DDA00DF02BB /* ViewController.m */,
+				C991C35A1BC64DDA00DF02BB /* Main.storyboard */,
+				C991C35D1BC64DDA00DF02BB /* Assets.xcassets */,
+				C991C35F1BC64DDA00DF02BB /* LaunchScreen.storyboard */,
+				C991C3621BC64DDA00DF02BB /* Info.plist */,
+				C991C3891BC66EF800DF02BB /* GoogleSDK */,
+				C991C3841BC6589300DF02BB /* FBSDK */,
+				C9A5B4111BCB57AE008DCAE6 /* Framework */,
+				C991C3511BC64DDA00DF02BB /* Supporting Files */,
+			);
+			path = SSO_FG;
+			sourceTree = "<group>";
+		};
+		C991C3511BC64DDA00DF02BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C991C3521BC64DDA00DF02BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C991C36A1BC64DDA00DF02BB /* SSO_FGTests */ = {
+			isa = PBXGroup;
+			children = (
+				C991C36B1BC64DDA00DF02BB /* SSO_FGTests.m */,
+				C991C36D1BC64DDA00DF02BB /* Info.plist */,
+			);
+			path = SSO_FGTests;
+			sourceTree = "<group>";
+		};
+		C991C3751BC64DDA00DF02BB /* SSO_FGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C991C3761BC64DDA00DF02BB /* SSO_FGUITests.m */,
+				C991C3781BC64DDA00DF02BB /* Info.plist */,
+			);
+			path = SSO_FGUITests;
+			sourceTree = "<group>";
+		};
+		C991C3841BC6589300DF02BB /* FBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C92E322E1BCF5BAE00330748 /* Bolts.framework */,
+				C92E322F1BCF5BAE00330748 /* FBSDKCoreKit.framework */,
+				C92E32301BCF5BAE00330748 /* FBSDKLoginKit.framework */,
+			);
+			name = FBSDK;
+			sourceTree = "<group>";
+		};
+		C991C3891BC66EF800DF02BB /* GoogleSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C991C38A1BC66F1300DF02BB /* GoogleOpenSource.framework */,
+				C991C38B1BC66F1300DF02BB /* GooglePlus.bundle */,
+				C991C38C1BC66F1300DF02BB /* GooglePlus.framework */,
+			);
+			name = GoogleSDK;
+			sourceTree = "<group>";
+		};
+		C9A5B4111BCB57AE008DCAE6 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C9A5B4221BCB5838008DCAE6 /* SystemConfiguration.framework */,
+				C9A5B4201BCB582E008DCAE6 /* Security.framework */,
+				C9A5B41E1BCB5826008DCAE6 /* MediaPlayer.framework */,
+				C9A5B41C1BCB581D008DCAE6 /* CoreText.framework */,
+				C9A5B41A1BCB5809008DCAE6 /* CoreGraphics.framework */,
+				C9A5B4181BCB57FD008DCAE6 /* CoreMotion.framework */,
+				C9A5B4161BCB57E7008DCAE6 /* CoreLocation.framework */,
+				C9A5B4141BCB57DA008DCAE6 /* AssetsLibrary.framework */,
+				C9A5B4121BCB57CE008DCAE6 /* AddressBook.framework */,
+			);
+			name = Framework;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C991C34D1BC64DDA00DF02BB /* SSO_FG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C991C37B1BC64DDA00DF02BB /* Build configuration list for PBXNativeTarget "SSO_FG" */;
+			buildPhases = (
+				C991C34A1BC64DDA00DF02BB /* Sources */,
+				C991C34B1BC64DDA00DF02BB /* Frameworks */,
+				C991C34C1BC64DDA00DF02BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSO_FG;
+			productName = SSO_FG;
+			productReference = C991C34E1BC64DDA00DF02BB /* SSO_FG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C991C3661BC64DDA00DF02BB /* SSO_FGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C991C37E1BC64DDA00DF02BB /* Build configuration list for PBXNativeTarget "SSO_FGTests" */;
+			buildPhases = (
+				C991C3631BC64DDA00DF02BB /* Sources */,
+				C991C3641BC64DDA00DF02BB /* Frameworks */,
+				C991C3651BC64DDA00DF02BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C991C3691BC64DDA00DF02BB /* PBXTargetDependency */,
+			);
+			name = SSO_FGTests;
+			productName = SSO_FGTests;
+			productReference = C991C3671BC64DDA00DF02BB /* SSO_FGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C991C3711BC64DDA00DF02BB /* SSO_FGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C991C3811BC64DDA00DF02BB /* Build configuration list for PBXNativeTarget "SSO_FGUITests" */;
+			buildPhases = (
+				C991C36E1BC64DDA00DF02BB /* Sources */,
+				C991C36F1BC64DDA00DF02BB /* Frameworks */,
+				C991C3701BC64DDA00DF02BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C991C3741BC64DDA00DF02BB /* PBXTargetDependency */,
+			);
+			name = SSO_FGUITests;
+			productName = SSO_FGUITests;
+			productReference = C991C3721BC64DDA00DF02BB /* SSO_FGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C991C3461BC64DD900DF02BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = april;
+				TargetAttributes = {
+					C991C34D1BC64DDA00DF02BB = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					C991C3661BC64DDA00DF02BB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C991C34D1BC64DDA00DF02BB;
+					};
+					C991C3711BC64DDA00DF02BB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C991C34D1BC64DDA00DF02BB;
+					};
+				};
+			};
+			buildConfigurationList = C991C3491BC64DD900DF02BB /* Build configuration list for PBXProject "SSO_FG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C991C3451BC64DD900DF02BB;
+			productRefGroup = C991C34F1BC64DDA00DF02BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C991C34D1BC64DDA00DF02BB /* SSO_FG */,
+				C991C3661BC64DDA00DF02BB /* SSO_FGTests */,
+				C991C3711BC64DDA00DF02BB /* SSO_FGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C991C34C1BC64DDA00DF02BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C991C3611BC64DDA00DF02BB /* LaunchScreen.storyboard in Resources */,
+				C991C35E1BC64DDA00DF02BB /* Assets.xcassets in Resources */,
+				C991C38E1BC66F1300DF02BB /* GooglePlus.bundle in Resources */,
+				C991C35C1BC64DDA00DF02BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C991C3651BC64DDA00DF02BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C991C3701BC64DDA00DF02BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C991C34A1BC64DDA00DF02BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C991C3591BC64DDA00DF02BB /* ViewController.m in Sources */,
+				C991C3561BC64DDA00DF02BB /* AppDelegate.m in Sources */,
+				C991C3531BC64DDA00DF02BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C991C3631BC64DDA00DF02BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C991C36C1BC64DDA00DF02BB /* SSO_FGTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C991C36E1BC64DDA00DF02BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C991C3771BC64DDA00DF02BB /* SSO_FGUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C991C3691BC64DDA00DF02BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C991C34D1BC64DDA00DF02BB /* SSO_FG */;
+			targetProxy = C991C3681BC64DDA00DF02BB /* PBXContainerItemProxy */;
+		};
+		C991C3741BC64DDA00DF02BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C991C34D1BC64DDA00DF02BB /* SSO_FG */;
+			targetProxy = C991C3731BC64DDA00DF02BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C991C35A1BC64DDA00DF02BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C991C35B1BC64DDA00DF02BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C991C35F1BC64DDA00DF02BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C991C3601BC64DDA00DF02BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C991C3791BC64DDA00DF02BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C991C37A1BC64DDA00DF02BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C991C37C1BC64DDA00DF02BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SSO_FG",
+				);
+				INFOPLIST_FILE = SSO_FG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "april.SSO-FG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C991C37D1BC64DDA00DF02BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SSO_FG",
+				);
+				INFOPLIST_FILE = SSO_FG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "april.SSO-FG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C991C37F1BC64DDA00DF02BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSO_FGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "april.SSO-FGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSO_FG.app/SSO_FG";
+			};
+			name = Debug;
+		};
+		C991C3801BC64DDA00DF02BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSO_FGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "april.SSO-FGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSO_FG.app/SSO_FG";
+			};
+			name = Release;
+		};
+		C991C3821BC64DDA00DF02BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSO_FGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "april.SSO-FGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSO_FG;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C991C3831BC64DDA00DF02BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSO_FGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "april.SSO-FGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSO_FG;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C991C3491BC64DD900DF02BB /* Build configuration list for PBXProject "SSO_FG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C991C3791BC64DDA00DF02BB /* Debug */,
+				C991C37A1BC64DDA00DF02BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C991C37B1BC64DDA00DF02BB /* Build configuration list for PBXNativeTarget "SSO_FG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C991C37C1BC64DDA00DF02BB /* Debug */,
+				C991C37D1BC64DDA00DF02BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C991C37E1BC64DDA00DF02BB /* Build configuration list for PBXNativeTarget "SSO_FGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C991C37F1BC64DDA00DF02BB /* Debug */,
+				C991C3801BC64DDA00DF02BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C991C3811BC64DDA00DF02BB /* Build configuration list for PBXNativeTarget "SSO_FGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C991C3821BC64DDA00DF02BB /* Debug */,
+				C991C3831BC64DDA00DF02BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C991C3461BC64DD900DF02BB /* Project object */;
+}
