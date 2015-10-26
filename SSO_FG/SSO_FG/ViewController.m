@@ -121,8 +121,12 @@ static NSString * const googleAPIKey =@"Your google API Key";
 
 - (void)refreshInterfaceBasedOnSignIn
 {
-    BOOL isAuthentcation = [[GPPSignIn sharedInstance] authentication];
-       
+    BOOL isAuthentcation = false;
+    
+    if ([[GPPSignIn sharedInstance] authentication])
+    {
+        isAuthentcation = true;
+    }
     self.GoogleLoginOut.hidden = !isAuthentcation;
     self.GoogleLoginButton.hidden = isAuthentcation;
     
@@ -136,10 +140,6 @@ static NSString * const googleAPIKey =@"Your google API Key";
 - (void)loginToGooglePlus
 {
     GPPSignIn *signIn = [GPPSignIn sharedInstance];
-    signIn.clientID = googlePlusClientId;
-    signIn.scopes = @[kGTLAuthScopePlusLogin];
-    signIn.shouldFetchGooglePlusUser = YES;
-    signIn.shouldFetchGoogleUserEmail = YES;
     signIn.delegate = self;
     
     [signIn authenticate];
@@ -157,8 +157,6 @@ static NSString * const googleAPIKey =@"Your google API Key";
 
 - (void)finishedWithAuth:(GTMOAuth2Authentication *)auth error:(NSError *)error
 {
-    NSLog(@"Received error %@ and auth object %@", error, auth);
-    
     if (error) {
         NSLog(@"error message:%@",error.debugDescription);
     } else {
