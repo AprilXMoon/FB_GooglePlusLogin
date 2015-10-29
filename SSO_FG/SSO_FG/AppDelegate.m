@@ -49,19 +49,13 @@
 
 - (BOOL)application:(UIApplication *)app openURL:(nonnull NSURL *)url options:(nonnull NSDictionary<NSString *,id> *)options
 {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Info" ofType:@"plist"];
-    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
-    NSString *fbID = [NSString stringWithFormat:@"fb%@",[dict objectForKey:@"FacebookAppID"]];
-    
-    NSArray *urlString = [url.absoluteString componentsSeparatedByString:@":"];
-    
-    if ([[urlString firstObject] isEqualToString:fbID]) {
+    if ([url.scheme isEqualToString:@"Your fb scheme"]) {
         return [[FBSDKApplicationDelegate sharedInstance] application:app openURL:url sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey] annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
-
-    } else {
-    
+        
+    } else if ([url.scheme isEqualToString:@"Your GooglePlus scheme"]){
         return [GPPURLHandler handleURL:url sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]  annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
     }
     
+    return YES;
 }
 @end
